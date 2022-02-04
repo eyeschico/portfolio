@@ -16,7 +16,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="sanodraw" title="Sano Draw" thumbnail={thumbSanodraw}>
+          <WorkGridItem 
+            id="sanodraw" 
+            title="Sano Draw" 
+            thumbnail={thumbSanodraw}
+          >
             A portfolio for the artist and content creator Sano Draw. Stack : Strapi, React
           </WorkGridItem>
         </Section>
