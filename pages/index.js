@@ -6,14 +6,22 @@ import {
   Box, 
   Heading, 
   Image, 
-  useColorModeValue
+  useColorModeValue,
+  SimpleGrid,
+  List,
+  ListItem,
+  Icon
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-
+import { GridItem } from '../components/grid-item'
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -98,7 +106,29 @@ const Page = () => {
             Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality
           </Paragraph>
 
+        </Section>
 
+        <Section delay={0.3}> 
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/eyeschico" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>
+                  @eyeschico
+                </Button>
+              </Link>
+            </ListItem>
+
+            <ListItem>
+              <Link href="https://twitter.com/eyeschico" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>
+                  @eyeschico
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
