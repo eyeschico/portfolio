@@ -7,7 +7,6 @@ import {
   Heading, 
   Image, 
   useColorModeValue,
-  SimpleGrid,
   List,
   ListItem,
   Icon
@@ -17,7 +16,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -29,7 +27,7 @@ const Page = () => {
       <Container>
 
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello, I'm a web and mobile developer based in France!
+          Hello, Im a web and mobile developer based in France!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -86,7 +84,7 @@ const Page = () => {
 
           <BioSection>
             <BioYear>1996</BioYear>
-            Born in Oran (وهران), Algeria.
+            Born in Oran, Algeria.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
