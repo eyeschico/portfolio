@@ -25,7 +25,7 @@ import {
   IoLogoLinkedin
 } from 'react-icons/io5'
 
-const Page = () => {
+const Home = () => {
   return (
     <Layout>
       <Container>
@@ -207,4 +207,5 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Home
+export { getServerSideProps } from '../components/chakra'
