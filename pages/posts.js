@@ -2,25 +2,31 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
+
 
 import WebsiteOpening from '../public/images/contents/test.png'
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+      <Heading as="h3" fontSize={26} mb={4} mt={4}>
+        Posts
       </Heading>
+
       <Section delay={0.1}>
-        <SimpleGrid columns={[1,2,2]} gap={6}>
-          <GridItem 
-            title="Website Opening"
-            thumbnail={WebsiteOpening}
-            href="https://google.com"
-          />
-            
-        </SimpleGrid>
+      <SimpleGrid columns={[1,2,2]} gap={6}>
+        <PostGridItem 
+          id="testpost" 
+          title="Sano Draw" 
+          thumbnail={WebsiteOpening}
+        >
+          A portfolio for the artist and content creator Sano Draw. Stack : Strapi, React
+        </PostGridItem>
+      </SimpleGrid>  
+
       </Section>
+
     </Container>
   </Layout>
 

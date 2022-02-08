@@ -1,5 +1,5 @@
 
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -10,7 +10,7 @@ import thumbSanodraw from '../public/images/works/sanodraw-screen.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={26} mb={4}>
+      <Heading as="h3" fontSize={26} mb={4} mt={4}>
         Works
       </Heading>
 
@@ -25,6 +25,10 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Section delay={0.1}>
+        <Divider my={4} />
+      </Section>
 
     </Container>
   </Layout>

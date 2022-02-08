@@ -1,4 +1,9 @@
 import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 import {
   Link, 
   Button,
@@ -11,11 +16,6 @@ import {
   ListItem,
   Icon
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -114,12 +114,33 @@ const Page = () => {
               <Image 
                 maxWidth="100px"
                 align="center"
+                boxShadow="lg"
                 src="/images/badge-advanced.png"
                 alt="Opquast Badge"
               />
             </Box>
 
           </BioSection>
+        </Section>
+
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Posts
+          </Heading>
+
+          <Paragraph>
+          Below you will find my latest posts and veilles related to the digital world
+          </Paragraph>
+
+          <Box align="center" my={4}>
+            <NextLink href="/posts">
+              <Button 
+                rightIcon={<ChevronRightIcon/>} 
+                colorScheme="teal">
+                  Posts
+              </Button>
+            </NextLink>
+          </Box>
         </Section>
 
         <Section delay={0.4}>
