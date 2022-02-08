@@ -14,21 +14,20 @@ const Work = () => {
         <P>
         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
         </P>
+        <List ml={4} my={4}>
+          <ListItem>
+            <Meta>Website</Meta>
+            <Link href='https://sano-draw.netlify.app/'>
+              https://sano-draw.netlify.app/ <ExternalLinkIcon mx="2px"/>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>Strapi, React</span>
+          </ListItem>
+        </List>
+        <WorkImage src="/images/works/sanodraw-screen.png" alt="Sano Draw"/>
       </Container>
-      <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href='https://sano-draw.netlify.app/'>
-            https://sano-draw.netlify.app/ <ExternalLinkIcon mx="2px"/>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>Strapi, React</span>
-        </ListItem>
-      </List>
-
-      <WorkImage src="/images/works/sanodraw-screen.png" alt="Sano Draw"/>
     </Layout>
   )
 }

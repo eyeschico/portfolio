@@ -4,6 +4,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { PostGridItem } from '../components/grid-item'
+import WebsiteOpening from '../public/images/contents/test.png'
 import {
   Link, 
   Button,
@@ -14,7 +16,8 @@ import {
   useColorModeValue,
   List,
   ListItem,
-  Icon
+  Icon,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import {
   IoLogoTwitter,
@@ -123,7 +126,7 @@ const Page = () => {
           </BioSection>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Posts
           </Heading>
@@ -131,6 +134,19 @@ const Page = () => {
           <Paragraph>
           Below you will find my latest posts and veilles related to the digital world
           </Paragraph>
+
+          <SimpleGrid 
+            columns={[1,2,2]} 
+            gap={6} 
+            mt={5}
+            
+          >
+            <PostGridItem 
+              id="testpost"
+              title="Sano Draw" 
+              thumbnail={WebsiteOpening}
+            />
+          </SimpleGrid>  
 
           <Box align="center" my={4}>
             <NextLink href="/posts">
@@ -143,7 +159,7 @@ const Page = () => {
           </Box>
         </Section>
 
-        <Section delay={0.4}>
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             I love
           </Heading>
@@ -154,7 +170,7 @@ const Page = () => {
 
         </Section>
 
-        <Section delay={0.5}> 
+        <Section delay={0.6}> 
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
