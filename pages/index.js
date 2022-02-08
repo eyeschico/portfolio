@@ -19,6 +19,7 @@ import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoTwitter,
   IoLogoGithub,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -26,8 +27,15 @@ const Page = () => {
     <Layout>
       <Container>
 
-        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello, Im a web and mobile developer based in France!
+        <Box 
+          borderRadius="lg" 
+          bg={useColorModeValue('green.200', 'green.900')} 
+          p={3} 
+          mb={6} 
+          mt={6} 
+          align="center"
+        >
+          Hello, I&apos;m actually open to work!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -53,7 +61,7 @@ const Page = () => {
               borderRadius="full"
               src="/images/mohammed.jpg"
               alt="Profile Image"
-              />
+            />
           </Box>
         </Box>
 
@@ -79,23 +87,42 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Diploma
           </Heading>
 
           <BioSection>
-            <BioYear>1996</BioYear>
-            Born in Oran, Algeria.
-          </BioSection>
-          <BioSection>
             <BioYear>2021</BioYear>
             Graduate Of the European level 5 professional title : web and mobile web developer at {''}
-            <Link href="https://occitanie.simplon.co/">
+            <Link href="https://simplon.co/la-pedagogie-simplon.html" target="_blank">
               Simplon
             </Link>
           </BioSection>
         </Section>
 
         <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Certification
+          </Heading>
+
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Opquast Certified : Quality control in Web projects - {''}
+            <Link href="https://directory.opquast.com/fr/certificat/W152ZO/" target="_blank">
+            Advanced level
+            </Link>
+            <Box my={4}>
+              <Image 
+                maxWidth="100px"
+                align="center"
+                src="/images/badge-advanced.png"
+                alt="Opquast Badge"
+              />
+            </Box>
+
+          </BioSection>
+        </Section>
+
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I love
           </Heading>
@@ -106,7 +133,7 @@ const Page = () => {
 
         </Section>
 
-        <Section delay={0.3}> 
+        <Section delay={0.5}> 
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
@@ -126,8 +153,18 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
+
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/mohammedkhalef/" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                  Mohammed Khalef
+                </Button>
+              </Link>
+            </ListItem>
+
           </List>
         </Section>
+
       </Container>
     </Layout>
   )

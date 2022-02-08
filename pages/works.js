@@ -10,7 +10,7 @@ import thumbSanodraw from '../public/images/works/sanodraw-screen.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h3" fontSize={26} mb={4}>
         Works
       </Heading>
 
