@@ -14,7 +14,7 @@ const Post = () => {
         <P>
         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
         </P>
-      </Container>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
@@ -29,6 +29,7 @@ const Post = () => {
       </List>
 
       <PostImage src="/images/works/sanodraw-screen.png" alt="Sano Draw"/>
+      </Container>
     </Layout>
   )
 }
