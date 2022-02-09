@@ -1,11 +1,4 @@
 import NextLink from 'next/link'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import { PostGridItem } from '../components/grid-item'
-import WebsiteOpening from '../public/images/contents/test.png'
 import {
   Link, 
   Button,
@@ -19,11 +12,17 @@ import {
   Icon,
   SimpleGrid,
 } from '@chakra-ui/react'
-import {
-  IoLogoTwitter,
-  IoLogoGithub,
-  IoLogoLinkedin
-} from 'react-icons/io5'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import { PostGridItem } from '../components/grid-item'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+
+import WebsiteOpening from '../public/images/contents/test.png'
+
+
 
 const Home = () => {
   return (
@@ -32,7 +31,8 @@ const Home = () => {
 
         <Box 
           borderRadius="lg" 
-          bg={useColorModeValue('green.200', 'green.900')} 
+          bg={useColorModeValue('white', 'green.800')} 
+          boxShadow='base'
           p={3} 
           mb={6} 
           mt={6} 
@@ -40,7 +40,6 @@ const Home = () => {
         >
           Hello, I&apos;m actually open to work!
         </Box>
-
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page=title">
@@ -48,7 +47,6 @@ const Home = () => {
             </Heading>
             <p>Web Developer, 3D Artist</p>
           </Box>
-
           <Box 
             flexShrink={0} 
             mt={{base: 4, md: 0}}
@@ -72,11 +70,9 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             About me
           </Heading>
-
           <Paragraph>
-          As far back as I can remember, I have always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it.
+            As far back as I can remember, I have always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. Bonjour, 
           </Paragraph>
-
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button 
@@ -117,12 +113,11 @@ const Home = () => {
               <Image 
                 maxWidth="100px"
                 align="center"
-                boxShadow="lg"
+                boxShadow="base"
                 src="/images/badge-advanced.png"
                 alt="Opquast Badge"
               />
             </Box>
-
           </BioSection>
         </Section>
 
@@ -130,11 +125,9 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Posts
           </Heading>
-
           <Paragraph>
           Below you will find my latest posts and veilles related to the digital world
           </Paragraph>
-
           <SimpleGrid 
             columns={[1,2,2]} 
             gap={6} 
@@ -152,7 +145,7 @@ const Home = () => {
             <NextLink href="/posts">
               <Button 
                 rightIcon={<ChevronRightIcon/>} 
-                colorScheme="teal">
+                colorScheme="purple">
                   Posts
               </Button>
             </NextLink>
@@ -161,13 +154,11 @@ const Home = () => {
 
         <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
-            I love
+            Interests
           </Heading>
-
           <Paragraph>
             Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality
           </Paragraph>
-
         </Section>
 
         <Section delay={0.6}> 
