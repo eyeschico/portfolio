@@ -33,7 +33,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail}) => (
           placeholder="blur"
         />
         <LinkOverlay href={`/works/${id}`}>
-          <Text mt={2}>{title}</Text>
+          <Text mt={2} fontSize={20}>{title}</Text>
         </LinkOverlay>
         <Text fontSize={14}>{children}</Text>
       </LinkBox>

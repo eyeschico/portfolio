@@ -4,7 +4,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbSanodraw from '../public/images/works/sanodraw-screen.png'
+import thumbAdacraft from '../public/images/works/adacraft-logo.png'
 
 
 const Works = () => (
@@ -17,11 +17,11 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem 
-            id="sanodraw" 
-            title="Sano Draw" 
-            thumbnail={thumbSanodraw}
+            id="adacraft" 
+            title="Contributing for adacraft" 
+            thumbnail={thumbAdacraft}
           >
-            A portfolio for the artist and content creator Sano Draw. Stack : Strapi, React
+            
           </WorkGridItem>
         </Section>
       </SimpleGrid>
