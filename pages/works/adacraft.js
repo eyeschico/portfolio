@@ -16,7 +16,7 @@ const Work = () => {
         Founded and maintained by Nicolas Decoster ({''}
           <Link href="https://twitter.com/ogadaki" target="_blank">
           @ogadaki
-          </Link>), adacraft is a tool for creating things using block programming. It's a fork of Scratch from MIT. I had the pleasure to contribute to the application a few times.
+          </Link>), adacraft is a tool for creating things using block programming. It&apos;s a fork of Scratch from MIT. I had the pleasure to contribute to the application a few times.
         </P>
 
         <SimpleGrid 
