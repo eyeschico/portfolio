@@ -31,27 +31,33 @@ const Work = () => {
         <P>
           My most significant experiences are adding links to the social networks of adacraft users and add a backup history for user projects.
         </P>
+
         <P>
           These experiences allowed me to discover the Vue javascript framework and its ecosystem by creating and manipulating reusable components in the application.
         </P>
 
-
-          <WorkImage src="/images/works/socialmediaslinks-adacraft.png" alt="social medias links screen"/>
-
-
-
+        <WorkImage src="/images/works/socialmediaslinks-adacraft.png" alt="social medias links screen"/>
         <WorkImage src="/images/works/history-projects.png" alt="history projects screen"/>
+
+        <P>
+          I also played with the serverless database {''}
+          <Link href="https://fauna.com/" target="_blank">
+          Fauna
+          </Link> to implement a collective management so that users can work on the same project. I really liked working with Fauna because it has its own query syntax and their documentation is very clear.
+        </P>
+
+        <WorkImage src="/images/works/adacraft-collective.png" alt="adacraft collective screen"/>
 
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://beta.adacraft.org/'>
-            https://beta.adacraft.org/ <ExternalLinkIcon mx="2px"/>
+            <Link href='https://www.adacraft.org/'>
+            https://www.adacraft.org/ <ExternalLinkIcon mx="2px"/>
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Vue, Tailwind and FaunaDB</span>
+            <span>Vue, Tailwind and Fauna</span>
           </ListItem>
         </List>
       </Container>
