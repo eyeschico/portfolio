@@ -32,7 +32,7 @@ const Work = () => {
           </SimpleGrid>  
         </Section>
 
-        <Section>
+        <Section delay={0.3}>
           <P>
           Visitors have access to the agenda of the event, see which speaker is present and be able to exchange their contact information with a qr code
           </P>
@@ -45,7 +45,7 @@ const Work = () => {
         /> 
         </Section>
 
-        <Section delay={0.5}>
+        <Section delay={0.4}>
           <List ml={4} my={4}>
             <ListItem>
               <Meta>Stack</Meta>
@@ -53,7 +53,6 @@ const Work = () => {
             </ListItem>
           </List>
         </Section>
-
 
       </Container>
     </Layout>
