@@ -71,7 +71,7 @@ const Home = () => {
             About me
           </Heading>
           <Paragraph>
-            As far back as I can remember, I have always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. Bonjour, 
+            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. Bonjour, 
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -126,7 +126,7 @@ const Home = () => {
             Posts
           </Heading>
           <Paragraph>
-          Below you will find my latest posts and veilles related to the digital world
+          Below you will find my latest posts and veilles related to the digital world.
           </Paragraph>
           <SimpleGrid 
             columns={[1,2,2]} 
@@ -157,7 +157,7 @@ const Home = () => {
             Interests
           </Heading>
           <Paragraph>
-            Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality
+            Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality.
           </Paragraph>
         </Section>
 

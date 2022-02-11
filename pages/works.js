@@ -5,6 +5,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbAdacraft from '../public/images/works/adacraft-logo.png'
+import thumbCyberNCompliance from '../public/images/works/cyberncompliance.png'
 
 
 const Works = () => (
@@ -14,19 +15,28 @@ const Works = () => (
         Works
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={4}>
+        <Section delay={0.1}>
           <WorkGridItem 
             id="adacraft" 
             title="Contributing to adacraft" 
             thumbnail={thumbAdacraft}
           >
-            
           </WorkGridItem>
         </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem 
+            id="cyberandcompliance" 
+            title="Cyber & Compliance" 
+            thumbnail={thumbCyberNCompliance}
+          >
+          </WorkGridItem>
+        </Section>
+        
       </SimpleGrid>
 
-      <Section delay={0.1}>
+      <Section delay={0.3}>
         <Divider my={4} />
       </Section>
 
