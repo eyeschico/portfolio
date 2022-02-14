@@ -71,7 +71,7 @@ const Home = () => {
             About me
           </Heading>
           <Paragraph>
-            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. At the moment, I'm working on a side project that I can't wait to show you and in parallel I'm looking for opportunities in the Luxembourg sector.
+            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. At the moment, I&apos;m working on a side project that I can&apos;t wait to show you and in parallel I&apos;m looking for opportunities in the Luxembourg sector.
           </Paragraph>
 
           <Paragraph>
