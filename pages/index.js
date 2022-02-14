@@ -45,7 +45,7 @@ const Home = () => {
             <Heading as="h2" variant="page=title">
               Mohammed Khalef
             </Heading>
-            <p>Web Developer, 3D Artist</p>
+            <p>Web Developer</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -71,14 +71,19 @@ const Home = () => {
             About me
           </Heading>
           <Paragraph>
-            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. Bonjour, 
+            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. At the moment, I'm working on a side project that I can't wait to show you and in parallel I'm looking for opportunities in the Luxembourg sector.
           </Paragraph>
+
+          <Paragraph>
+
+          </Paragraph>
+
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button 
                 rightIcon={<ChevronRightIcon/>} 
                 colorScheme="teal">
-                  My portfolio
+                  Take a look at my Portfolio
               </Button>
             </NextLink>
           </Box>
@@ -91,7 +96,7 @@ const Home = () => {
 
           <BioSection>
             <BioYear>2021</BioYear>
-            Graduate Of the European level 5 professional title : web and mobile web developer at {''}
+            Graduate Of the European level 5 professional title : Web and Mobile Web Developer at {''}
             <Link href="https://simplon.co/la-pedagogie-simplon.html" target="_blank">
               Simplon
             </Link>
@@ -126,7 +131,7 @@ const Home = () => {
             Posts
           </Heading>
           <Paragraph>
-          Below you will find my latest posts and veilles related to the digital world.
+          Below you will find my latest posts and technological watches related to the digital world.
           </Paragraph>
           <SimpleGrid 
             columns={[1,2,2]} 

@@ -16,7 +16,17 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={4}>
-        <Section delay={0.1}>
+
+      <Section delay={0.1}>
+          <WorkGridItem 
+            id="cyberandcompliance" 
+            title="Cyber & Compliance" 
+            thumbnail={thumbCyberNCompliance}
+          >
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
           <WorkGridItem 
             id="adacraft" 
             title="Contributing to adacraft" 
@@ -25,15 +35,6 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.2}>
-          <WorkGridItem 
-            id="cyberandcompliance" 
-            title="Cyber & Compliance" 
-            thumbnail={thumbCyberNCompliance}
-          >
-          </WorkGridItem>
-        </Section>
-        
       </SimpleGrid>
 
       <Section delay={0.3}>

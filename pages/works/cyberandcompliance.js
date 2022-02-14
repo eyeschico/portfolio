@@ -34,20 +34,26 @@ const Work = () => {
 
         <Section delay={0.3}>
           <P>
-          Visitors have access to the agenda of the event, see which speaker is present and be able to exchange their contact information with a qr code
+          Visitors have access to the agenda of the event, see which speaker is present and be able to exchange their contact information with a QR code.
           </P>
           <P>
           This experience was very enjoyable because I was able to discover React Native and work in a group in the same repository with one branch for production and development. For these two weeks of work we adopted the Kanban agile method.
           </P>
-         <ReactPlayer 
-          url='https://youtu.be/gBUlnSfiX8c'
-          width={300} height={600}
-        /> 
+
         </Section>
 
         <Section delay={0.4}>
           <List ml={4} my={4}>
             <ListItem>
+              <Meta>Test run</Meta>
+              <span>
+              <ReactPlayer 
+                url='https://youtu.be/gBUlnSfiX8c'
+                width={300} height={600}
+              /> 
+              </span>
+            </ListItem>
+            <ListItem mt={4}>
               <Meta>Stack</Meta>
               <span>React Native</span>
             </ListItem>
