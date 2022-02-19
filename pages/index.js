@@ -71,11 +71,11 @@ const Home = () => {
             About me
           </Heading>
           <Paragraph>
-            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. At the moment, I&apos;m working on a side project that I can&apos;t wait to show you and in parallel I&apos;m looking for opportunities in the Luxembourg sector.
+            As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it. 
           </Paragraph>
 
           <Paragraph>
-
+            At the moment, I&apos;m working on a side project that I can&apos;t wait to show you and in parallel I&apos;m looking for opportunities in the Luxembourg sector.
           </Paragraph>
 
           <Box align="center" my={4}>
@@ -140,8 +140,8 @@ const Home = () => {
             
           >
             <PostGridItem 
-              id="testpost"
-              title="Sano Draw" 
+              id="portfolionextchakra"
+              title="How to create a Portfolio using Next.JS, Chakra UI and Framer Motion"  
               thumbnail={WebsiteOpening}
             />
           </SimpleGrid>  
@@ -162,7 +162,7 @@ const Home = () => {
             Interests
           </Heading>
           <Paragraph>
-            Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality.
+            Art, Drawing, 3D, Soccer, Fighting Sports, Metaverse Era, Virtual Reality, New Technologies.
           </Paragraph>
         </Section>
 

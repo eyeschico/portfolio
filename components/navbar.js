@@ -102,8 +102,9 @@ const Navbar = props => {
                 </NextLink>
               </MenuList>
             </Menu>
-          </Box>
+          </Box>  
         </Box>
+        
       </Container>
     </Box>
   )

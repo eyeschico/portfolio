@@ -16,14 +16,12 @@ const Posts = () => (
       <Section delay={0.1}>
       <SimpleGrid columns={[1,2,2]} gap={6}>
         <PostGridItem 
-          id="testpost" 
-          title="Sano Draw" 
+          id="portfolionextchakra" 
+          title="How to create a Portfolio using Next.JS, Chakra UI and Framer Motion" 
           thumbnail={WebsiteOpening}
-        >
-          A portfolio for the artist and content creator Sano Draw. Stack : Strapi, React
-        </PostGridItem>
+        />
       </SimpleGrid>  
-
+  
       </Section>
 
     </Container>
