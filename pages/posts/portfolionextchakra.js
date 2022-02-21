@@ -14,9 +14,12 @@ const Post = () => {
         How to create a portfolio website using Next.js, Chakra UI and Framer Motion <Badge>February 15, 2022</Badge>
         </Title>
 
-        <PostImage src="/images/contents/nextchakramotion.png" alt="history projects screen"/>
-
         <Section delay={0.1}>
+          <PostImage src="/images/contents/nextchakramotion.png" alt="next chakra framer motion logos"/>
+        </Section>
+
+
+        <Section delay={0.2}>
           <P>
           For the construction of my website, I choose to use and discover {''}<Link href="https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website" target="_blank">Next.js</Link> for its ease of use to create a Single Page Application, for a portfolio is just excellent!
           </P>
@@ -32,7 +35,7 @@ const Post = () => {
           </P>
         </Section>
 
-        <Section delay={0.2}>
+        <Section delay={0.3}>
           <Heading as="h3" size="sm">
             1 - Setting up the project with Next.JS and Chakra UI
           </Heading>
@@ -67,7 +70,7 @@ const Post = () => {
 
         </Section>
 
-        <Section delay={0.3}> 
+        <Section delay={0.4}> 
           <Heading as="h4" size="sm">
             2 - Support dark themes
           </Heading>
@@ -80,7 +83,7 @@ const Post = () => {
           </P>
         </Section>
 
-        <Section delay={0.4}>
+        <Section delay={0.5}>
           <Heading as="h4" size="sm">
             3 - Animate page sections with Framer Motion
           </Heading>
@@ -97,7 +100,7 @@ const Post = () => {
           </P>
         </Section>
 
-        <Section delay={0.5}>
+        <Section delay={0.6}>
           <Heading as="h4" size="sm">
             4 - Deploy the website on Vercel
           </Heading>
