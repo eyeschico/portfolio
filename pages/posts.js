@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
 
-import WebsiteOpening from '../public/images/contents/test.png'
+import WebsiteOpening from '../public/images/contents/nextchakramotion.png'
 
 const Posts = () => (
   <Layout title="Posts">

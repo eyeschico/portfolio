@@ -4,6 +4,7 @@ import { Title, Meta } from '../../components/post'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
+import { PostImage } from '../../components/post'
 
 const Post = () => {
   return (
@@ -13,9 +14,11 @@ const Post = () => {
         How to create a portfolio website using Next.js, Chakra UI and Framer Motion <Badge>February 15, 2022</Badge>
         </Title>
 
+        <PostImage src="/images/contents/nextchakramotion.png" alt="history projects screen"/>
+
         <Section delay={0.1}>
           <P>
-          For the construction of my website, I choose to use and discover Next.JS for its ease of use to create a Single Page Application, for a portfolio is just excellent!
+          For the construction of my website, I choose to use and discover {''}<Link href="https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website" target="_blank">Next.js</Link> for its ease of use to create a Single Page Application, for a portfolio is just excellent!
           </P>
 
           <P>
@@ -49,7 +52,9 @@ const Post = () => {
             <ArrowForwardIcon/><i>public</i><br/>
           </Box>
 
-          <P>It is in the <i>pages</i> folder that there will be our static pages like the main page index.js. Next also has in its component cupboard the head tag to add the title of our site and the meta tags that promote natural referencing.
+          <P>It is in the <i>pages</i> folder that there will be our static pages like the main page index.js. Next also has in its component cupboard {''}<Link href="https://nextjs.org/docs/api-reference/next/head" target="_blank">
+            the built-in component next/tag
+          </Link> to add the title of our site and the meta tags that promote natural referencing.
           </P>
 
           <P>
@@ -57,7 +62,7 @@ const Post = () => {
           </P>
 
           <P>The magic starts then by implementing Chakra UI (_app.js) with its provider especially for Next.
-          Chakra is a component library for React using props to add style, from there, it is now possible to use our components.
+          {''} <Link href="https://chakra-ui.com/docs/getting-started" target="_blank">Chakra</Link> is a component library for React using props to add style, from there, it is now possible to use our components.
           </P>
 
         </Section>
@@ -67,7 +72,7 @@ const Post = () => {
             2 - Support dark themes
           </Heading>
           <P>
-          The addition of the dark theme with Chakra UI is even simpler, it is in the <i>lib</i> file that we have our theme (theme.js). In this file, we will have objects that will have in their fields the css properties (font style, heading, links...).
+          {''}<Link href="https://chakra-ui.com/docs/features/color-mode" target="_blank">The addition of the dark theme with Chakra UI</Link> is even simpler, it is in the <i>lib</i> file that we have our theme (theme.js). In this file, we will have objects that will have in their fields the css properties (font style, heading, links...).
           </P>
 
           <P>
@@ -80,7 +85,7 @@ const Post = () => {
             3 - Animate page sections with Framer Motion
           </Heading>
           <P>
-          Framer Motion is a ready-to-use animation library for React from Framer. To animate our components, the library proposes ready-to-use props by giving them css animation values like <code>animate, transiton</code> ...etc 
+          {''}<Link href="https://www.framer.com/docs/introduction/" target="_blank">Framer Motion</Link> is a ready-to-use animation library for React from Framer. To animate our components, the library proposes ready-to-use props by giving them css animation values like <code>animate, transiton</code> ...etc 
           </P>
 
           <P>
@@ -88,7 +93,7 @@ const Post = () => {
           </P>
 
           <P>
-          For transitions between pages, Framer offers the <code>AnimatePresence</code> component which animates your parameter back before changing page to give that dynamic effect.
+          For transitions between pages, Framer offers the {''}<code><Link href="https://www.framer.com/docs/introduction/" target="_blank">AnimatePresence</Link></code> component which animates your parameter back before changing page to give that dynamic effect.
           </P>
         </Section>
 
@@ -97,7 +102,7 @@ const Post = () => {
             4 - Deploy the website on Vercel
           </Heading>
           <P>
-          Vercel is the best complete platform to put your work online with Next. Join your github repo with Vercel and deploy it.
+          Vercel is the best complete platform to put your work online with Next. Join your github repo with {''}<Link href="https://nextjs.org/docs/deployment" target="_blank">Vercel</Link> and deploy it.
           </P>
 
           <P>

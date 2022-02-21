@@ -20,7 +20,7 @@ import { BioSection, BioYear } from '../components/bio'
 import { PostGridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
-import WebsiteOpening from '../public/images/contents/test.png'
+import WebsiteOpening from '../public/images/contents/nextchakramotion.png'
 
 
 
