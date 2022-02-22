@@ -21,7 +21,7 @@ const Post = () => {
 
         <Section delay={0.2}>
           <P>
-          For the construction of my website, I choose to use and discover {''}<Link href="https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website" target="_blank">Next.js</Link> for its ease of use to create a Single Page Application, for a portfolio is just excellent!
+          For the construction of my website, I choose to use and discover {''}<Link href="https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website" target="_blank">Next.js</Link> for its ease of use to create a Single Page Application, for a portfolio it is just excellent!
           </P>
 
           <P>
@@ -31,7 +31,7 @@ const Post = () => {
           </Link> who is a full-stack developer based in Japan. It is from {''}        
           <Link href="https://youtu.be/bSMZgXzC9AA" target="_blank">
             his video worthy of a relaxing cooking show
-          </Link> that I wanted to taste the stack. Let&apos;s see what intrigued me the most during the development.
+          </Link> that I wanted to test the stack. Let&apos;s see what intrigued me the most during the development.
           </P>
         </Section>
 
@@ -47,12 +47,17 @@ const Post = () => {
             <strong>$PROJECT_ROOT</strong><br/>
             <strong>Pages files</strong><br/>
             <ArrowForwardIcon/><i>pages</i><br/>
+            <ArrowForwardIcon/><ArrowForwardIcon/><i>posts</i><br/>
+            <ArrowForwardIcon/><ArrowForwardIcon/><i>works</i><br/>
             <strong>React components files</strong><br/>
             <ArrowForwardIcon/><i>components</i><br/>
+            <ArrowForwardIcon/><ArrowForwardIcon/><i>layouts</i><br/>
             <strong>Non-react modules</strong><br/>
             <ArrowForwardIcon/><i>lib</i><br/>
             <strong>Static files for images</strong><br/>
             <ArrowForwardIcon/><i>public</i><br/>
+            <ArrowForwardIcon/><ArrowForwardIcon/><i>images</i><br/>
+
           </Box>
 
           <P>It is in the <i>pages</i> folder that there will be our static pages like the main page index.js. Next also has in its component cupboard {''}<Link href="https://nextjs.org/docs/api-reference/next/head" target="_blank">
@@ -64,7 +69,7 @@ const Post = () => {
           In the <i>layouts</i> folder, the main.js file will help me to better structure the parent components by adding for example the width of my container which will be taken into account in the whole site.
           </P>
 
-          <P>The magic starts then by implementing Chakra UI (_app.js) with its provider especially for Next.
+          <P>The magic starts then by implementing Chakra UI (_app.js) with its provider specific for Next.
           {''} <Link href="https://chakra-ui.com/docs/getting-started" target="_blank">Chakra</Link> is a component library for React using props to add style, from there, it is now possible to use our components.
           </P>
 
@@ -72,7 +77,7 @@ const Post = () => {
 
         <Section delay={0.4}> 
           <Heading as="h4" size="sm">
-            2 - Support dark themes
+            2 - Support for dark themes
           </Heading>
           <P>
           {''}<Link href="https://chakra-ui.com/docs/features/color-mode" target="_blank">The addition of the dark theme with Chakra UI</Link> is even simpler, it is in the <i>lib</i> file that we have our theme (theme.js). In this file, we will have objects that will have in their fields the css properties (font style, heading, links...).
@@ -88,7 +93,7 @@ const Post = () => {
             3 - Animate page sections with Framer Motion
           </Heading>
           <P>
-          {''}<Link href="https://www.framer.com/docs/introduction/" target="_blank">Framer Motion</Link> is a ready-to-use animation library for React from Framer. To animate our components, the library proposes ready-to-use props by giving them css animation values like <code>animate, transiton</code> ...etc 
+          {''}<Link href="https://www.framer.com/docs/introduction/" target="_blank">Framer Motion</Link> is a ready-to-use animation library for React from Framer. To animate our components, the library proposes ready-to-use props by giving them css animation values like <code>animate, transiton</code> ... 
           </P>
 
           <P>
@@ -96,7 +101,7 @@ const Post = () => {
           </P>
 
           <P>
-          For transitions between pages, Framer offers the {''}<code><Link href="https://www.framer.com/docs/introduction/" target="_blank">AnimatePresence</Link></code> component which animates your parameter back before changing page to give that dynamic effect.
+          For transitions between pages, Framer offers the {''}<code><Link href="https://www.framer.com/docs/animate-shared-layout/##animatepresence" target="_blank">AnimatePresence</Link></code> component which animates your parameter back before changing page to give that dynamic effect.
           </P>
         </Section>
 
@@ -105,7 +110,7 @@ const Post = () => {
             4 - Deploy the website on Vercel
           </Heading>
           <P>
-          Vercel is the best complete platform to put your work online with Next. Join your github repo with {''}<Link href="https://nextjs.org/docs/deployment" target="_blank">Vercel</Link> and deploy it.
+          Vercel is the best complete platform to put your work online with Next. Like your github repo with {''}<Link href="https://nextjs.org/docs/deployment" target="_blank">Vercel</Link> and deploy it.
           </P>
 
           <P>
