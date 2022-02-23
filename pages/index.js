@@ -82,7 +82,7 @@ const Home = () => {
             <NextLink href="/works">
               <Button 
                 rightIcon={<ChevronRightIcon/>} 
-                colorScheme="teal">
+                colorScheme="purple">
                   Take a look at my Portfolio
               </Button>
             </NextLink>
@@ -173,7 +173,7 @@ const Home = () => {
           <List>
             <ListItem>
               <Link href="https://github.com/eyeschico" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>
+                <Button variant="ghost" colorScheme="cyan" leftIcon={<Icon as={IoLogoGithub}/>}>
                   @eyeschico
                 </Button>
               </Link>
@@ -181,7 +181,7 @@ const Home = () => {
 
             <ListItem>
               <Link href="https://twitter.com/eyeschico" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter}/>}>
+                <Button variant="ghost" colorScheme="cyan" leftIcon={<Icon as={IoLogoTwitter}/>}>
                   @eyeschico
                 </Button>
               </Link>
@@ -189,7 +189,7 @@ const Home = () => {
 
             <ListItem>
               <Link href="https://www.linkedin.com/in/mohammedkhalef/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>
+                <Button variant="ghost" colorScheme="cyan" leftIcon={<Icon as={IoLogoLinkedin}/>}>
                   Mohammed Khalef
                 </Button>
               </Link>
