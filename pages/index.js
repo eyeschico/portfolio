@@ -12,7 +12,7 @@ import {
   Icon,
   SimpleGrid,
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ArrowForwardIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -75,7 +75,11 @@ const Home = () => {
           </Paragraph>
 
           <Paragraph>
-            At the moment, I&apos;m working on a side project that I can&apos;t wait to show you and in parallel I&apos;m looking for opportunities in the Luxembourg sector.
+            At the moment, I'm training on the Symfony PHP framework and the javascript universe. In parallel I&apos;m looking for opportunities in the Luxembourg sector.
+          </Paragraph>
+
+          <Paragraph>
+            <strong><ArrowForwardIcon/>contact@mohammedkhalef.com</strong>
           </Paragraph>
 
           <Box align="center" my={4}>
