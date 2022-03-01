@@ -8,7 +8,7 @@ const Main = ({children, router}) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Mohammed's homepage" />
+        <meta name="description" content="As far as I can remember, I always had this desire to make real what comes into my mind , whether by drawing it or more recently by developing it." />
         <meta name="author" content="Mohammed Khalef"/>
         <meta name="author" content="eyeschico"/>
 
@@ -20,9 +20,9 @@ const Main = ({children, router}) => {
         <meta name="twitter:image" content="/card.png" />
 
         <meta property="og:image" content="/card.png" />
-        <meta property="og:site_name" content="Mohammed Khalef's Homepage" />
+        <meta property="og:site_name" content="Mohammed Khalef - Web Developer" />
         <meta property="og:type" content="website" />
-        <title>Mohammed Khalef</title>
+        <title>Mohammed Khalef - Web Developer</title>
       </Head>
 
       <Navbar path={router.asPath}/>

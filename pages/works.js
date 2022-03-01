@@ -21,10 +21,9 @@ const Works = () => (
           <WorkGridItem 
             id="cyberandcompliance" 
             title="Cyber & Compliance"
-            children="Mobile application for event visitors"
             thumbnail={thumbCyberNCompliance}
           >
-            
+            Mobile application for event visitors
           </WorkGridItem>
         </Section>
 
@@ -32,9 +31,9 @@ const Works = () => (
           <WorkGridItem 
             id="adacraft" 
             title="Contributing to adacraft"
-            children="Links to user's social networks, user's project backup history and more"
             thumbnail={thumbAdacraft}
           >
+            Links to user&apos;s social networks, user&apos;s project backup history and more
           </WorkGridItem>
         </Section>
 

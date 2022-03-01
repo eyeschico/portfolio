@@ -85,7 +85,7 @@ export const GridItemStyle = () => (
 
     .grid-item-box{
       border-radius: 12px;
-      transition: 0.1s;
+      transition: 0.3s;
     }
 
     .grid-item-box:hover{
