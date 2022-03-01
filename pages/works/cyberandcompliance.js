@@ -5,7 +5,7 @@ import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import ReactPlayer from 'react-player'
 
-const Work = () => {
+const CnC = () => {
   return (
     <Layout title="Cyber & Compliance Fair">
       <Container>
@@ -65,4 +65,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default CnC

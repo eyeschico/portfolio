@@ -5,7 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 
-const Work = () => {
+const Adacraft = () => {
   return (
     <Layout title="adacraft">
       <Container>
@@ -71,4 +71,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Adacraft

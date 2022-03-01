@@ -20,16 +20,19 @@ const Works = () => (
       <Section delay={0.1}>
           <WorkGridItem 
             id="cyberandcompliance" 
-            title="Cyber & Compliance" 
+            title="Cyber & Compliance"
+            children="Mobile application for event visitors"
             thumbnail={thumbCyberNCompliance}
           >
+            
           </WorkGridItem>
         </Section>
 
         <Section delay={0.2}>
           <WorkGridItem 
             id="adacraft" 
-            title="Contributing to adacraft" 
+            title="Contributing to adacraft"
+            children="Links to user's social networks, user's project backup history and more"
             thumbnail={thumbAdacraft}
           >
           </WorkGridItem>
