@@ -39,7 +39,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail}) => (
         />
         <LinkOverlay href={`/works/${id}`}>
           <Box p={3} pb={5}>
-            <Heading fontSize={20} mb={1}>{title}</Heading>
+            <Heading fontSize={14} mb={1}>{title}</Heading>
             <Text fontSize={12}>{children}</Text>
           </Box>
         </LinkOverlay>
@@ -66,8 +66,8 @@ export const PostGridItem = ({ children, id, title, thumbnail}) => (
         />
         <LinkOverlay href={`/posts/${id}`}>
         <Box p={3} pb={5}>
-          <Heading fontSize={14} mb={1}>{title}</Heading>
-          <Text fontSize={12}>{children}</Text>
+          <Heading fontSize={13} mb={1}>{title}</Heading>
+          <Text fontSize={10}>{children}</Text>
         </Box>
 
         </LinkOverlay>
