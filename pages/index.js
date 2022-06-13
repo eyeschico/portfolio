@@ -75,7 +75,7 @@ const Home = () => {
           </Paragraph>
 
           <Paragraph>
-            At the moment, I&apos;m training on the Symfony PHP framework and the javascript universe. In parallel I&apos;m looking for opportunities in the Luxembourg sector.
+            At the moment, I&apos;m training on the Symfony PHP framework and the javascript universe. In parallel I&apos;m looking for opportunities in the Toulouse sector.
           </Paragraph>
 
           <Paragraph>
