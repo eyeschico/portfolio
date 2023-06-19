@@ -30,7 +30,7 @@ const Logo = () => {
           <Image src={eyeschicoImg} width={40} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='M PLUS Rounded 1c", sans-serif'
+            fontFamily='Inter", sans-serif'
             fontWeight="bold"
             ml={3}
           >
